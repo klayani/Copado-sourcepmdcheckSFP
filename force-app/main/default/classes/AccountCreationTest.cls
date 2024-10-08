@@ -20,6 +20,7 @@ public class AccountCreationTest {
     static void testAccountCreationWithBlankName() {
         // Test method to check behavior when account name is blank
         Test.startTest();
+        //just commenting
         try {
             AccountCreation.createAccount('');
             System.assert(false, 'Exception should have been thrown for blank account name.');

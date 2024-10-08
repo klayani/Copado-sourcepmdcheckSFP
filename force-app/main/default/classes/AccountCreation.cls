@@ -5,7 +5,7 @@ public class AccountCreation {
         if (String.isBlank(accountName)) {
             throw new IllegalArgumentException('Account name cannot be blank.');
         }
-        
+        //just commenting
         // Create new account
         Account acc = new Account();
         acc.Name = accountName;
